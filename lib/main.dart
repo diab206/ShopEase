@@ -20,6 +20,7 @@ class ShopEaseApp extends StatelessWidget {
     return MaterialApp(
       title: 'ShopEase',
       debugShowCheckedModeBanner: false,
+      // ignore: deprecated_member_use
       useInheritedMediaQuery: true, 
       locale: DevicePreview.locale(context), 
       builder: DevicePreview.appBuilder, 
