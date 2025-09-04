@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
-import 'package:shopease/core/theme/theme.dart';
+import 'package:shopease/core/theme/app_colors.dart';
 import 'features/auth/presentation/welcome_screen.dart';
 
 void main() {
@@ -29,7 +29,7 @@ class ShopEaseApp extends StatelessWidget {
         primaryColor: AppColors.primary,
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: AppColors.primary,
-          secondary: AppColors.secondary,
+          
         ),
         appBarTheme: const AppBarTheme(
           backgroundColor: AppColors.primary,

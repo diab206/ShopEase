@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopease/core/theme/theme.dart';
+import 'package:shopease/core/theme/app_colors.dart';
 
 class CustomAuthTextField extends StatelessWidget {
   final TextEditingController controller;
